@@ -1,6 +1,6 @@
 require 'pry'
 def unsafe?(speed)
-if speed == [40-60].include.to_a
+if speed == [40-60].include
 	return false
 else
 	return true
